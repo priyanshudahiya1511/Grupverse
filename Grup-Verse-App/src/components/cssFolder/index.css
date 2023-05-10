@@ -1,0 +1,349 @@
+/* Default styles */
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.post-section {
+  margin: auto;
+  width: 31.25rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.875rem;
+  /* position: absolute;
+  top : 20% ;
+  left: 40%; */
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1.875rem;
+  margin-bottom: 3rem;
+}
+
+.postCard {
+  height: auto;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  padding: 0.625rem;
+  padding-bottom: 1.875rem;
+  border: 0.016rem solid gainsboro;
+  border-radius: 1.25rem;
+  box-shadow: -0.3125rem -0.3125rem 0.3125rem palevioletred;
+  margin-bottom: 1.875rem;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.profile,
+.category {
+  height: 3.125rem;
+  width: 3.125rem;
+  border-radius: 50%;
+  border: 0.125rem solid palevioletred;
+  margin: 0 0.625rem;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 0.3125rem;
+}
+
+.box span {
+  font-size: 0.8125rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.heading {
+  margin-left: 0.625rem;
+  margin-top: 1.875rem;
+  font-weight: 700;
+}
+
+
+#carouselExampleSlidesOnly{
+  height: 100%;
+}
+.carousel-inner{
+  height: 100%;
+}
+.carousel-item{
+  height: 100%;
+}
+
+
+
+.horizontalSlider {
+  overflow-x: scroll;
+  position: static;
+  display: flex;
+  justify-content: space-around;
+}
+
+.horizontalSlider > img {
+  width: 100%;
+}
+
+.read-more-button {
+  border: none;
+  background-color: transparent;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.buttonsContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonsContainer svg {
+  font-size: 1.875rem;
+  cursor: pointer;
+}
+
+/* Default styles */
+.quoteContainer {
+  margin-top: 2.5rem;
+  font-size: 0.8125rem;
+  width: 95%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  height: 1.875rem;
+  width: 1.875rem;
+  background-color: black;
+  bottom: 50%;
+  position: absolute;
+  z-index: 10000;
+  border-radius: 50%;
+  opacity: 0.4;
+  cursor: pointer;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.copyButton:active {
+  fill: skyblue;
+  transition: fill 0s ease;
+  font-weight: bolder;
+}
+
+.copyButton:focus {
+  fill: initial;
+  transition: fill 1s ease;
+}
+
+.dotContainer {
+  font-weight: 0.75rem;
+  position: absolute;
+  bottom: -1.25rem;
+  left: 50%;
+  color: gray;
+  height: 0.625rem;
+  width: 2.5rem;
+  margin-right: 0.125rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dot {
+  height: 0.3125rem;
+  width: 0.3125rem;
+  border-radius: 50%;
+  color: gray;
+}
+
+.dot>svg {
+  position: relative;
+}
+.spanCopy{
+  display: flex;
+  flex-direction: column;
+}
+small {
+  position: relative;
+  left: 25%;
+  bottom:12%;
+  z-index: 100000;
+  font-size: 12px;
+}
+
+/* PC and laptop styles */
+.post-section {
+  margin: auto;
+  width: 31.25rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.875rem;
+}
+
+.postCard {
+  height: auto;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: flex-start;
+  padding: 0.625rem;
+  padding-bottom: 1.875rem;
+  border: 0.016rem solid gainsboro;
+  border-radius: 1.25rem;
+  box-shadow: -0.3125rem -0.3125rem 0.3125rem palevioletred;
+  margin-bottom: 1.875rem;
+}
+
+.imgContainer {
+  width: 100%;
+  min-height: 12.5rem;
+  height: auto;
+  box-shadow: 0.625rem 0.625rem 1.25rem #888888;
+  border-radius: 0.625rem;
+  position: relative;
+}
+
+.imgContainer .img {
+  position: absolute;
+  height: inherit;
+  max-height: 100%;
+  width: 100%;
+  border-radius: 0.625rem;
+  transition: opacity 1s ease-in-out;
+}
+
+.swiper-slide {
+  height: 12.5rem;
+  width: 100%;
+}
+
+
+.slider-container{
+height: inherit;
+width: inherit;
+display: flex;
+overflow: auto;
+scroll-snap-type: x mandatory;
+}
+.slider-container .slide {
+scroll-snap-align: start;
+}
+.slider-container img {
+  height: 12rem;
+  max-height: 12rem;
+width: 100%;
+object-fit: contain;
+}
+::-webkit-scrollbar {
+display: none;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+swiper-container {
+    width: 100%;
+    height: 12rem;
+  }
+
+  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .postCard {
+     margin-left: 1.5rem;
+     margin-right: 1.5rem;
+    }
+    h2{
+      margin-left: 1.5rem;
+    }
+  }
+  @media only screen and (max-width:486px) {
+    .postCard{
+      width: 20rem;
+    }
+    .buttonsContainer svg {
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .imgContainer{
+      height: 100%;
+    }
+  }
+  @media only screen and (max-width:374px) {
+    .postCard{
+      width: 15rem;
+    }
+    .imgContainer{
+      height: 10rem;
+     min-height:auto;
+    }
+    .quoteContainer{
+      font-size: 0.7rem;
+    }
+    .buttonsContainer svg {
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .profile, .category{
+      margin-bottom: 0.4rem;
+      height: 2rem;
+      width: 2rem;
+    }
+  .heading{
+    margin-top: 0.6rem;
+  }
+  }
+  @media only screen and (max-width:706px) {
+.post-section{
+  left:50%
+}
+
+  }
+  @media only screen and (max-width:555px) {
+.post-section{
+  right:10%
+}
+
+  }
+  @media only screen and (max-width:500px) {
+.post-section{
+  right:0;
+}
+
+  }

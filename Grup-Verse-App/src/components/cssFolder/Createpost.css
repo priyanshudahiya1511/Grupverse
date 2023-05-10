@@ -1,0 +1,84 @@
+.main{
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.heading{
+    display: flex;
+}
+
+.main p{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.underline{
+    height: 3px;
+    width: 150px;
+    background-color: palevioletred;
+    margin-left: 35px;
+    
+}
+
+.Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    background-color: red;
+    min-height: 25px;
+    margin-left: 200px;
+}
+
+.post-title p {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.post-desc p{
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.post-tag p{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.post-tag{
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.post-tag select{
+    width: 200px;
+}
+
+.post-newtag p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.post-team p{
+    font-size: 20px;
+}
+
+.post-team input{
+    margin-left: 90px;
+}
+
+.close-btn{
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: absolute;
+    top:130px;
+    cursor: pointer;
+}

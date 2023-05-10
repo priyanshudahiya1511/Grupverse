@@ -1,0 +1,204 @@
+nav{
+    background-color: white;
+    height:50px;
+    width: 1200px;
+    z-index: 1000;
+    position: static;
+    overflow: hidden;
+    top: 0;
+  }
+  .logo img{
+    width: 40px;
+    padding-right: 5px;
+    border-radius: 40%;
+  }
+  .logo h3{
+   display: inline-block;
+   position: relative;
+   left: 10px;
+   bottom: 20px;
+  }
+  .contains{
+    padding-top: 0;
+}
+
+ .contains ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: 75px;
+    text-align: center;
+  }
+  
+  .contains li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  li:last-child {
+    margin-right: 0;
+  }
+  
+ .contains a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-weight: 100px;
+    font-size: medium;
+  }
+  
+ .contains a:hover{
+  color: palevioletred;
+ }
+ .notification{
+    position: relative;
+    left: 1000px;
+    bottom: 110px;
+    font-size: 23px;
+    overflow: hidden;
+  }
+  .dropbtn img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-top: 5px;
+  }
+  .dropdown {
+    position: relative;
+    left: 1105px;
+    bottom: 145px;
+    z-index: 1000;
+  }
+   
+    .dropdown-content {
+    display: none;
+  }  
+  .dropdown-content a {
+    display: block;
+    color: #333;
+    padding: 2px;
+    text-decoration: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover{
+    color: palevioletred;
+  }
+  .sidebar-container{
+    width: 250px;
+    height: 50%;
+    padding-top: 3px;
+    position: relative;
+    top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+    background-color: white;
+    box-shadow: 10px 10px 5px lightgray;
+    border-right: 1px white;
+    border-top: 1px white;
+    border-left: 1px white;
+    border-bottom: 1px white;
+    z-index: 999;
+}
+.sidebar-container ul {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+.sidebar-container li{
+  padding-left: 30px;
+  padding: 15px;
+}
+.sidebar-container a{
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding-left: 20px;
+}
+.sidebar-container a:hover{
+  background-color: whitesmoke;
+}
+.card img{
+    width: auto;
+    height: 190px;
+    object-fit: cover;
+    padding-left: 10px;
+    cursor: pointer;
+    box-shadow: 20rem;
+  }
+  h4 {
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .social-links{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    width: 235px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .social-links a{
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+    transition: color 0.3s ease-in-out;
+  }
+  .social-links img{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px;
+    object-fit: cover;
+  }
+  .social-links a:hover{
+    color: #333;
+  }
+  p{
+    position: relative;
+    left: 30px;
+    bottom: 10px;
+  }
+  .search-container {
+     position: relative;
+    left: 510px;
+    bottom: 680px;
+    width: fit-content; 
+     justify-content: center; 
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #search-input {
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+  }
+  
+  #search-button,
+  #mic-button {
+    padding: 10px;
+    border: none;
+    color: black;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  

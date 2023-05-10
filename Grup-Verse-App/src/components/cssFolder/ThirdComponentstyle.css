@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rounded-button {
+  width: 50px;
+  height: 50px;
+  background: rgb(247, 244, 244);
+  color: palevioletred;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+  margin-right: 1%;
+}
+
+.link1 {
+  color: black;
+}
+
+
+.round-image {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 40px/2 - 124.5px);
+  top: calc(50% - 40px/2 - 102.5px);
+
+
+}
+
+.align-item {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+}
+
+ul {
+  list-style: none;
+
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  gap: 20px;
+  cursor: pointer;
+  margin-left: 0.5%;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+img {
+  width: 65px;
+  /* height: 65px;
+  margin: 1%; */
+}
+
+.Wrapper {
+  display: flex;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+.button {
+  background-color: rgb(253, 8, 139);
+  text-decoration: none;
+  height: fit-content;
+  border-radius: 6px;
+  margin-left: 18px;
+  border: 1px solid rgb(14, 13, 13);
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.button:hover {
+  background-color: hwb(336 3% 17%);
+  color: white;
+}
+
+.joinbtn {
+  padding-left: 40px;
+  padding-top: 10%;
+}
+
+.text1 {
+  width: 75%;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.text2 {
+  width: 75%;
+}
+
+.followbtn {
+  padding-left: 100px;
+  padding-top: 17px;
+}
+
+.round {
+  display: flex;
+  margin-left: 3%;
+}
+
+.team-name {
+
+  padding-top: 25px;
+  font-weight: 500;
+  width: 150px;
+  color: black;
+  text-decoration: none;
+}
+
+a .team-name {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.text1 a .team-name {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.top-team1 {
+
+  font-size: 20px;
+  padding-bottom: 2.5%;
+}
+
+
+.container1 {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 25);
+  background: rgba(251, 251, 251, 0.69);
+  width: 321px;
+  border-radius: 10px;
+  left: 1350px;
+  height: 281px;
+  top: 134px;
+  width: 20rem;
+}
+
+.container1 {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: transparent;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container1::-webkit-scrollbar {
+  display: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.container2 {
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 25);
+  width: 317px;
+  border-radius: 10px;
+  height: 293px;
+  left: 1350px;
+  top: 502px;
+  background: #FFFFFF;
+  overflow-y: scroll;
+  width: 20rem;
+  margin-top: 2rem;
+
+}
+
+.container2::-webkit-scrollbar {
+  display: none;
+}
+
+.container2 {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  background-color: transparent;
+}
+
+.top-team2 {
+  font-size: 20px;
+  margin-top: 2%;
+  padding-top: 2.5%;
+  padding-bottom: 2%;
+
+}
+
+.username {
+  font-weight: 500;
+  padding-left: 8px;
+  padding-top: 25px;
+  width: 200px;
+  color: black;
+  text-decoration: none;
+}
+
+.img1 {
+  padding-left: 10%;
+}
+
+.img2 {
+  padding-left: 16px;
+}
+
+.round {
+  margin-top: 2%;
+}
+
+.rounded-button {
+  background-color: lightpink;
+}
+
+.rounded-button {
+  width: 65px;
+  height: 65px;
+  background: rgb(247, 244, 244);
+  color: palevioletred;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: none;
+  text-decoration: none;
+}
+
+.grid {
+
+  margin-top: 5rem;
+}
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+
+  /* Adjust the font size of headings */
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  /* Adjust the width of cards */
+  .card1,
+  .card2 {
+    width: 100%;
+  }
+
+  /* Adjust the layout of elements within cards */
+  .square-image,
+  .round-imagee {
+    width: 50px;
+    height: 50px;
+  }
+
+  .team-name,
+  .username,
+  .about {
+    font-size: 14px;
+    margin: 4px 2px;
+  }
+
+  .button {
+    font-size: 12px;
+    display: inline-block;
+    margin: 4px 2px;
+  }
+}
+
+/* Tablets and desktops */
+@media only screen and (min-width: 601px) {
+
+  /* Adjust the width of cards */
+  .card1 {
+    width: 50%;
+  }
+
+  .card2 {
+    width: 25%;
+  }
+}

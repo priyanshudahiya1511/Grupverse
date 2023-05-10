@@ -1,0 +1,55 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+
+#right-side-container {
+    margin-right: 1rem;
+    position: sticky;
+}
+
+#right-side-container {
+    position: fixed;
+    width: 20%;
+    overflow-y: auto;
+    z-index: 1;
+    top: 6rem;
+}
+
+
+#mid-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    position: relative;
+    left: 100%;
+    top: 50px;
+
+}
+
+.sidebar-container {
+    height: auto;
+}
+
+.search-container {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    margin: auto;
+}
+
+.another-div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 100%;
+}
+
+.pp{
+    position: fixed;
+    left: 50%;
+    z-index: 100;
+    bottom: 0;
+}
